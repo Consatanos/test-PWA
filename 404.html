@@ -18,44 +18,44 @@
 
 <div class="pbc-calculator-embedded"></div>
 <script>
-  // // Настроика виджета
-  // window.cpWidgetSettings = {
-  //   baseHref: 'https://nmarket.pro/planb-calculator-embedded/',
-  //   widgetInsertSelector: '.pbc-calculator-embedded',
-  //   loadPolyfills: true
-  // };
-  //
-  // (function () {
-  //   function checkCpWidgetsLoaded(resolve) {
-  //     if (window.cpWidgetIsLoad) {
-  //       resolve();
-  //       return;
-  //     }
-  //
-  //     setTimeout(function () {
-  //       checkCpWidgetsLoaded(resolve);
-  //     }, 50);
-  //   }
-  //
-  //   window.nmWidgetsLoaded = function () {
-  //     return new Promise(checkCpWidgetsLoaded);
-  //   };
-  //
-  //   var script = document.createElement('script'),
-  //     baseHref = window.cpWidgetSettings.baseHref;
-  //   script.type = 'text/javascript';
-  //   script.src = baseHref + 'loader.js';
-  //   document.body.append(script);
-  // })();
+  // Настроика виджета
+  window.cpWidgetSettings = {
+    baseHref: 'https://nmarket.pro/planb-calculator-embedded/',
+    widgetInsertSelector: '.pbc-calculator-embedded',
+    loadPolyfills: true
+  };
+
+  (function () {
+    function checkCpWidgetsLoaded(resolve) {
+      if (window.cpWidgetIsLoad) {
+        resolve();
+        return;
+      }
+
+      setTimeout(function () {
+        checkCpWidgetsLoaded(resolve);
+      }, 50);
+    }
+
+    window.nmWidgetsLoaded = function () {
+      return new Promise(checkCpWidgetsLoaded);
+    };
+
+    var script = document.createElement('script'),
+      baseHref = window.cpWidgetSettings.baseHref;
+    script.type = 'text/javascript';
+    script.src = baseHref + 'loader.js';
+    document.body.append(script);
+  })();
 
 
 
-  window.cpWidgetSettings={
-    baseHref:"https://nmarket.pro/planb-calculator-embedded/",
-    widgetInsertSelector:".pbc-calculator-embedded",
-    loadPolyfills:true
-  }
-  (function(){window.nmWidgetsLoaded=function(){return new Promise(function e(t){if(window.cpWidgetIsLoad){t();return}setTimeout(function(){e(t)},50)})};var e=document.createElement("script"),t=window.cpWidgetSettings.baseHref;e.type="text/javascript",e.src=t+"loader.js",document.body.append(e)})();
+  // window.cpWidgetSettings={
+  //   baseHref:"https://nmarket.pro/planb-calculator-embedded/",
+  //   widgetInsertSelector:".pbc-calculator-embedded",
+  //   loadPolyfills:true
+  // }
+  // (function(){window.nmWidgetsLoaded=function(){return new Promise(function e(t){if(window.cpWidgetIsLoad){t();return}setTimeout(function(){e(t)},50)})};var e=document.createElement("script"),t=window.cpWidgetSettings.baseHref;e.type="text/javascript",e.src=t+"loader.js",document.body.append(e)})();
 </script>
 
 <!--<app-root></app-root>-->
