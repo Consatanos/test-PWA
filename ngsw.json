@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1697178687401,
+  "timestamp": 1697482339568,
   "index": "https://Consatanos.github.io/test-PWA/index.html",
   "assetGroups": [
     {
@@ -52,7 +52,7 @@
     "https://Consatanos.github.io/test-PWA/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
     "https://Consatanos.github.io/test-PWA/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
     "https://Consatanos.github.io/test-PWA/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://Consatanos.github.io/test-PWA/index.html": "9d089725322abf9993b7467e35c0c3e5ce0fe254",
+    "https://Consatanos.github.io/test-PWA/index.html": "a01af70447012f994ade93990c19430705e5bb88",
     "https://Consatanos.github.io/test-PWA/main.6d94bfe0bf1a3c5d.js": "d0f9c06637b2781c7c4cd52d7f3588549e4c2e76",
     "https://Consatanos.github.io/test-PWA/manifest.webmanifest": "fcb582e667d3a878449ceeae30bff9a8464fe9a5",
     "https://Consatanos.github.io/test-PWA/polyfills.0464bd2721a63ced.js": "1a081604e890fab07c4f2f6772d33cc95e0099f6",
