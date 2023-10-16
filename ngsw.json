@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1697482339568,
+  "timestamp": 1697486219782,
   "index": "https://Consatanos.github.io/test-PWA/index.html",
   "assetGroups": [
     {
@@ -17,7 +17,8 @@
         "https://Consatanos.github.io/test-PWA/manifest.webmanifest",
         "https://Consatanos.github.io/test-PWA/polyfills.0464bd2721a63ced.js",
         "https://Consatanos.github.io/test-PWA/runtime.f2d17d24ed874fe8.js",
-        "https://Consatanos.github.io/test-PWA/styles.ef46db3751d8e999.css"
+        "https://Consatanos.github.io/test-PWA/styles.ef46db3751d8e999.css",
+        "https://Consatanos.github.io/test-PWA/sw.js"
       ],
       "patterns": []
     },
@@ -52,12 +53,13 @@
     "https://Consatanos.github.io/test-PWA/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
     "https://Consatanos.github.io/test-PWA/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
     "https://Consatanos.github.io/test-PWA/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://Consatanos.github.io/test-PWA/index.html": "a01af70447012f994ade93990c19430705e5bb88",
+    "https://Consatanos.github.io/test-PWA/index.html": "5b23646b83a09bf3a859da4a30f31dd9435ba09f",
     "https://Consatanos.github.io/test-PWA/main.6d94bfe0bf1a3c5d.js": "d0f9c06637b2781c7c4cd52d7f3588549e4c2e76",
     "https://Consatanos.github.io/test-PWA/manifest.webmanifest": "fcb582e667d3a878449ceeae30bff9a8464fe9a5",
     "https://Consatanos.github.io/test-PWA/polyfills.0464bd2721a63ced.js": "1a081604e890fab07c4f2f6772d33cc95e0099f6",
     "https://Consatanos.github.io/test-PWA/runtime.f2d17d24ed874fe8.js": "b92068cdcc59217fd23039a152c0591c23d360f3",
-    "https://Consatanos.github.io/test-PWA/styles.ef46db3751d8e999.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    "https://Consatanos.github.io/test-PWA/styles.ef46db3751d8e999.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "https://Consatanos.github.io/test-PWA/sw.js": "3d7f1d306c668cf7c18b9a8ed3f5be9299ff3e94"
   },
   "navigationUrls": [
     {
