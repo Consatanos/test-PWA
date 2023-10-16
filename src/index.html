@@ -11,40 +11,19 @@
 </head>
 <body>
 
-<div class="pbc-calculator-embedded"></div>
-<script>
-  // Настроика виджета
-  window.cpWidgetSettings = {
-    baseHref: 'https://nmstaging4.ru/planb-calculator-embedded/',
-    widgetInsertSelector: '.pbc-calculator-embedded',
-    loadPolyfills: true
-  };
+<!--<div class="pbc-calculator-embedded"></div>-->
+<!--<script>-->
+<!--  // Настроика виджета-->
+<!--  window.cpWidgetSettings = {-->
+<!--    baseHref: 'https://nmarket.pro/planb-calculator-embedded/',-->
+<!--    widgetInsertSelector: '.pbc-calculator-embedded',-->
+<!--    loadPolyfills: true-->
+<!--  };-->
 
-  (function () {
-    function checkCpWidgetsLoaded(resolve) {
-      if (window.cpWidgetIsLoad) {
-        resolve();
-        return;
-      }
+<!--  (function(){function checkCpWidgetsLoaded(resolve){if(window.cpWidgetIsLoad){resolve();return;}setTimeout(function(){checkCpWidgetsLoaded(resolve);},50);}window.nmWidgetsLoaded=function(){return new Promise(checkCpWidgetsLoaded);};var script=document.createElement('script'),baseHref=window.cpWidgetSettings.baseHref;script.type='text/javascript';script.src=baseHref+'loader.js';document.body.append(script);})();-->
+<!--</script>-->
 
-      setTimeout(function () {
-        checkCpWidgetsLoaded(resolve);
-      }, 50);
-    }
-
-    window.nmWidgetsLoaded = function () {
-      return new Promise(checkCpWidgetsLoaded);
-    };
-
-    var script = document.createElement('script'),
-      baseHref = window.cpWidgetSettings.baseHref;
-    script.type = 'text/javascript';
-    script.src = baseHref + 'loader.js';
-    document.body.append(script);
-  })();
-</script>
-
-<!--<app-root></app-root>-->
+<app-root></app-root>
 <noscript>Please enable JavaScript to continue using this application.</noscript>
 </body>
 </html>
