@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1700245923396,
+  "timestamp": 1700590342448,
   "index": "https://Consatanos.github.io/test-PWA/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "https://Consatanos.github.io/test-PWA/favicon.ico",
         "https://Consatanos.github.io/test-PWA/index.html",
-        "https://Consatanos.github.io/test-PWA/main.6d94bfe0bf1a3c5d.js",
+        "https://Consatanos.github.io/test-PWA/main.33ac0201b32b9ec8.js",
         "https://Consatanos.github.io/test-PWA/manifest.webmanifest",
         "https://Consatanos.github.io/test-PWA/polyfills.0464bd2721a63ced.js",
         "https://Consatanos.github.io/test-PWA/runtime.f2d17d24ed874fe8.js",
@@ -52,8 +52,8 @@
     "https://Consatanos.github.io/test-PWA/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
     "https://Consatanos.github.io/test-PWA/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
     "https://Consatanos.github.io/test-PWA/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://Consatanos.github.io/test-PWA/index.html": "3765e3882227dead951fada8d0d31345e89fa76e",
-    "https://Consatanos.github.io/test-PWA/main.6d94bfe0bf1a3c5d.js": "d0f9c06637b2781c7c4cd52d7f3588549e4c2e76",
+    "https://Consatanos.github.io/test-PWA/index.html": "30614bbca58ddb89373302dc45de7f3cbadde775",
+    "https://Consatanos.github.io/test-PWA/main.33ac0201b32b9ec8.js": "3153fec5f75e09130bf083fdc773d27728735edf",
     "https://Consatanos.github.io/test-PWA/manifest.webmanifest": "fcb582e667d3a878449ceeae30bff9a8464fe9a5",
     "https://Consatanos.github.io/test-PWA/polyfills.0464bd2721a63ced.js": "1a081604e890fab07c4f2f6772d33cc95e0099f6",
     "https://Consatanos.github.io/test-PWA/runtime.f2d17d24ed874fe8.js": "b92068cdcc59217fd23039a152c0591c23d360f3",
